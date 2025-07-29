@@ -1,0 +1,10 @@
+const password = document.getElementById('password');
+const strength = document.getElementById('strength');
+
+password.addEventListener('input', () => {
+  const val = password.value;
+  let msg = "Weak ❌";
+  if (val.length > 5 && /\d/.test(val)) msg = "Medium ⚡";
+  if (val.length > 8 && /\d/.test(val) && /[A-Z]/.test(val)) msg = "Strong ✅";
+  strength.textContent = "Password Strength: " + msg;
+});
