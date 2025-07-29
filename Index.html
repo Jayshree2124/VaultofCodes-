@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VaultofCodes Internship Tasks</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>VaultofCodes Internship</h1>
+
+  <!-- Task 1: Internship Cards -->
+  <h2>Task 1: Component Creation (Internship Cards)</h2>
+  <div class="card-container">
+    <div class="card">
+      <h3>Web Development Internship</h3>
+      <p>Duration: 1/2 months</p>
+      <p>Location: Virtual</p>
+      <p>Start date: 05/11/2023</p>
+      <button>View Details</button>
+    </div>
+
+    <div class="card">
+      <h3>App Development Internship</h3>
+      <p>Duration: 1/2 months</p>
+      <p>Location: Virtual</p>
+      <p>Start date: 05/11/2023</p>
+      <button>View Details</button>
+    </div>
+
+    <div class="card">
+      <h3>Python Programming Internship</h3>
+      <p>Duration: 1/2 months</p>
+      <p>Location: Virtual</p>
+      <p>Start date: 05/11/2023</p>
+      <button>View Details</button>
+    </div>
+
+    <div class="card">
+      <h3>Java Programming Internship</h3>
+      <p>Duration: 1/2 months</p>
+      <p>Location: Virtual</p>
+      <p>Start date: 05/11/2023</p>
+      <button>View Details</button>
+    </div>
+  </div>
+
+  <!-- Task 2: Registration Form -->
+  <h2>Task 2: Interactive User Registration Form</h2>
+  <form id="registerForm">
+    <label>Full Name:</label>
+    <input type="text" placeholder="First Last" required><br>
+
+    <label>Email:</label>
+    <input type="email" placeholder="Enter Email" required><br>
+
+    <label>Password:</label>
+    <input type="password" id="password" required><br>
+    <span id="strength"></span><br>
+
+    <label>Confirm Password:</label>
+    <input type="password" required><br>
+
+    <label>Date of Birth:</label>
+    <input type="date" required><br>
+
+    <label>Gender:</label>
+    <select>
+      <option>Male</option>
+      <option>Female</option>
+      <option>Other</option>
+    </select><br>
+
+    <label>Profile Picture:</label>
+    <input type="file"><br>
+
+    <label>
+      <input type="checkbox" required> I agree to Terms & Conditions
+    </label><br>
+
+    <button type="submit">Register</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
